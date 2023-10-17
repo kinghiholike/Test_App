@@ -13,4 +13,4 @@ phases:
 
 deploy:
   commands:
-    - aws s3 sync build s3://authsystembucket
+    - aws s3 sync build/ s3://authsystembucket
